@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Application/Application.csproj" Id="d321cae8-de72-493f-bf47-65da16caa7f8" />
+  <Project Path="Chat/Chat.csproj" />
+  <Project Path="Domain/Domain.csproj" Id="3d622278-f0fa-4f5a-b5cb-489fc6a3c194" />
+  <Project Path="Infrastructure/Infrastructure.csproj" Id="382fe61e-b219-48e8-a8ca-6c51954107e8" />
+  <Project Path="Tests/Tests.csproj" Id="a25eaac3-752a-42eb-8ded-661e8ba1f70d" />
+</Solution>

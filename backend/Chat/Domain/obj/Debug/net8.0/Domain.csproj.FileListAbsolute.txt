@@ -1,0 +1,11 @@
+f:\chat\backend\Chat\Domain\bin\Debug\net8.0\Domain.deps.json
+f:\chat\backend\Chat\Domain\bin\Debug\net8.0\Domain.dll
+f:\chat\backend\Chat\Domain\bin\Debug\net8.0\Domain.pdb
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\Domain.dll
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\refint\Domain.dll
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\Domain.pdb
+f:\chat\backend\Chat\Domain\obj\Debug\net8.0\ref\Domain.dll
