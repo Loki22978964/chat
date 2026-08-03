@@ -5,14 +5,12 @@ const authHeaders = () => ({
   Authorization: `Bearer ${localStorage.getItem("token")}`,
 });
 
-// Отримати список чатів
 export async function fetchChats() {
   const res = await fetch(`${BASE_URL}/Chat`, { headers: authHeaders() });
   if (!res.ok) throw new Error("Failed to fetch chats");
   return res.json(); // ChatDto[]
 }
 
-// Отримати історію повідомлень
 export async function fetchMessages(chatId: string, limit = 50) {
   const res = await fetch(`${BASE_URL}/Message/${chatId}?limit=${limit}`, {
     headers: authHeaders(),
@@ -21,7 +19,6 @@ export async function fetchMessages(chatId: string, limit = 50) {
   return res.json(); // MessageDto[]
 }
 
-// Відправити повідомлення
 export async function sendMessage(chatId: string, content: string) {
   const res = await fetch(`${BASE_URL}/Chat/send`, {
     method: "POST",
